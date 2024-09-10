@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu-hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  height: 100rem;
+  background-color: azure;
+}
+
+.menu {
+  display: none;
+  
+}
+
+.menu.open {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+}
